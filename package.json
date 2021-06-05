@@ -1,0 +1,25 @@
+{
+  "name": "sample_prj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.11",
+    "@types/mongoose": "^5.10.5",
+    "@types/node": "^15.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "json2csv": "^5.0.6",
+    "mongoose": "^5.10.19"
+  }
+}
